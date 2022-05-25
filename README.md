@@ -16,9 +16,9 @@
   O objetivo deste algoritmo é dar o usuário a escolha de qual método usar em labirinto, passdo pelo mesmo em um arquivo de texto, e o deixar ver a diferença dos números de iterações de cada método. Além de mostrar qual o melhor método por meio estátisco, os testes foram feitos com 30 labirintos 9x9 e 13x13 diferentes em que 10 foram em labirintos com poucos bloqueios, 10 com muitos bloqueios e 10 com um número intermédiario aos outros 20.
 <p>
   
-#Labirintos 5x5
+# Labirintos 9x9
   
-#LAbirintos 7x7
+# LAbirintos 13x13
 
 # Compilação e Execução
 
