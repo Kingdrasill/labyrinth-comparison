@@ -13,8 +13,10 @@
 </p>
 
 <p align="justify">
-  O objetivo deste algoritmo é dar o usuário a escolha de qual método usar em labirinto, passdo pelo mesmo em um arquivo de texto, e o deixar ver a diferença dos números de iterações de cada método. Além de mostrar qual o melhor método por meio estátisco, os testes foram feitos com 30 labirintos 9x9 e 13x13 diferentes em que 10 foram em labirintos com poucos bloqueios, 10 com muitos bloqueios e 10 com um número intermédiario aos outros 20.
+  O objetivo deste algoritmo é dar o usuário a escolha de qual método usar em labirinto, passdo pelo mesmo em um arquivo de texto, e o deixar ver a diferença dos números de iterações de cada método. Além de mostrar qual o melhor método por meio estátisco, os testes foram feitos com 30 labirintos 9x9 e 13x13 diferentes em que 10 foram em labirintos normais, 10 com mais bloqueios e 10 com menos bloqueios. Todos os labirintos de teste estão na pasta teste, embaixo de cada labirinto tem o número de iterações de cada metódo. 
 <p>
+
+> Observação: Em alguns labirintos o método do DFS não consegue terminar o labirinto, isto acontece por causa de como o método foi feito. O método não consegue andar para cima, então metodos que necisstam de andar para cima para terminar o labirinto o método não consegue proguedir mais e termina. Na pasta teste os labirintos em que o DFS não termina vai estar o número de iterações até para com um asterisco(X*).  
   
 # Labirintos 9x9
   
