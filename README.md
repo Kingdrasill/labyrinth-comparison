@@ -9,19 +9,19 @@
   Dois métodos comuns para resolver labirintos são o DFS, mais sobre ele <a href="https://github.com/Kingdrasill/labyrinth-dfs">https://github.com/Kingdrasill/labyrinth-dfs</a>, e o BFS, mais sobre ele <a href="https://github.com/Kingdrasill/labyrinth-bfs">https://github.com/Kingdrasill/labyrinth-bfs</a>. Os dois métodos resolvem um labirinto o que utilizaremos para medir qual é o melhor são os números de iterações de cada método, uma iteração é uma inserção na estrutura que a armazena o caminho percorrido. Tem como ainda melhorar o método BFS que é na hora que for andar escolher o caminho em que que a distância do final seja a menor, está distância por ser calculada por heuristíca euclidiana ou manhattan. A formúla do cálculo das mesma por ser visto na imagem a seguir:
 </p>
 <p align="center">
-  <img src="imgs/formulas.png">
+  <img src="imgs/formula.png">
 </p>
 
 # Labirinto BFS-Euclidiano
 
 <p align="justify">
-  Como dito antes o método do BFS pode ser melhorado usando heurísticas que adicionam uma regra o bf, está sendo que a posição da fila a ser verificada tem que ser a posição mais perto do final. Uma das heurísticas é a euclidiana ela faz com que o caminho do algoritmo tenda a ser mais diagonal até a saída. O calcúlo da distância, Formúla 1, é feito na hora da inserção de uma posiçãona fila, para saber qual o item a fila tem a menor distância até a saída é feito um BubbleSort na fila para que a fila fica na ordem decrescente de ditância e para peguar a posição mais perta da saída eu só tenho que desinfileirar o primeiro elemento da fila para ter a posição de menor distância. 
+  Como dito antes o método do BFS pode ser melhorado usando heurísticas que adicionam uma regra o bf, está sendo que a posição da fila a ser verificada tem que ser a posição mais perto do final. Uma das heurísticas é a euclidiana ela faz com que o caminho do algoritmo tenda a ser mais diagonal até a saída. O calcúlo da distância, Fórmula 1, é feito na hora da inserção de uma posiçãona fila, para saber qual o item a fila tem a menor distância até a saída é feito um BubbleSort na fila para que a fila fica na ordem decrescente de ditância e para peguar a posição mais perta da saída eu só tenho que desinfileirar o primeiro elemento da fila para ter a posição de menor distância. 
 </p>
 
 # Labirinto BFS-Manhattan
 
 <p align="justify">
-  Outra heurística é a manhattan que faz com que o caminho do algoritmo tenda a ser primeiro vertical para baixo e depois horizontal para direita até a saída. O calcúlo da distância, Formúla 2, é feito na hora da inserção de uma posiçãona fila, para saber qual o item a fila tem a menor distância até a saída é feito um BubbleSort na fila para que a fila fica na ordem decrescente de ditância e para peguar a posição mais perta da saída eu só tenho que desinfileirar o primeiro elemento da fila para ter a posição de menor distância. 
+  Outra heurística é a manhattan que faz com que o caminho do algoritmo tenda a ser primeiro vertical para baixo e depois horizontal para direita até a saída. O calcúlo da distância, Fórmula 2, é feito na hora da inserção de uma posiçãona fila, para saber qual o item a fila tem a menor distância até a saída é feito um BubbleSort na fila para que a fila fica na ordem decrescente de ditância e para peguar a posição mais perta da saída eu só tenho que desinfileirar o primeiro elemento da fila para ter a posição de menor distância. 
 </p>
 
 <p align="justify">
